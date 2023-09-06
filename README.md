@@ -5,7 +5,7 @@ The content should be the result of the combined perspectives of package develop
 It is currently hosted by a private github user. If the project catches on, it would ideally be moved to the [JuliaLang github organization](https://github.com/JuliaLang) due to it's potential importance to the general julia ecosystem.
 
 ## The problem to be adressed by this project
-The Julia Package ecosystem is organic. This means that situations like the ones below occurs all the time:
+The Julia Package ecosystem is organic. This means that situations like the ones below occur all the time:
 * A new package is registered. It uses a technically superior algorithm to achieve a goal that an existing package solves, but is less tested.
 * There are 5 or more different packages that do the same thing in different ways (e.g. automatic differentiation).
 * A new package is registered. It makes grand promises, and the documentation looks great. However it appears to be a one-man project, and you are unsure if it is tested or will continue to be maintained and developed.
