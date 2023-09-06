@@ -2,6 +2,8 @@
 This Github repository contains the content of INSERT LINK, a website that compares Julia Packages. The comparisons should be as simple to read and understand as possible.
 The content should be the result of the combined perspectives of package developers and users to ensure the most fair and objective comparisons of packages.
 
+It is currently hosted by a private github user. If the project catches on, it would ideally be moved to the [JuliaLang github organization](https://github.com/JuliaLang) due to it's potential importance to the general julia ecosystem.
+
 ## The problem to be adressed by this project
 The Julia Package ecosystem is organic. This means that situations like the ones below occurs all the time:
 * A new package is registered. It uses a technically superior algorithm to achieve a goal that an existing package solves, but is less tested.
