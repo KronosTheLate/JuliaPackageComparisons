@@ -30,20 +30,20 @@ This project aims to create a canonical and updated website that will
 1) make it easier for users to discover packages for specific problems/domains, and
 1) learn about the differences between packages that overlap, to enable them to chose the most appropriate one.
 
-# Temporary content from here
-The goal is to create a github-hosted website, for which I plan to use [Franklin.jl](https://github.com/tlienart/Franklin.jl). Until then, I will write some content below to bootstrap this project. That content will be moved to the website once it is running.
+# Sections and domains
+The website will be organized into sections. Each section should cover a specific domain, e.g. plotting. The name of the section should make it clear 
+to users which domain is covered in the section.
+
+The format that makes the most sense will likely vary from domain to domain. Therefore, no general guidelines regarding the 
+format of the comparisons will be made. If however a format emerges that works well, it might be imposed as the default format.
 
 ### ToDo's
 * It would be great to automatically put e.g. an updated number of github stars on the website
 * Make list of packages into links to repositories
 * Writing the content for each section
 
-# Sections and domains
-The website will be organized into sections. Each section should cover a specific domain, e.g. plotting. The name of the section should make it clear 
-to users which domain is covered in the section.
-
-The format that makes the most sense will likely vary from domain to domain. Therefore, no general guidelines regarding the 
-format of the comparisons will be made. If however a format emerges that works well, it might be imposed as the default format. 
+# Webpage content from here
+The goal is to create a github-hosted website, for which I plan to use [Franklin.jl](https://github.com/tlienart/Franklin.jl). Until then, I will write some content below to bootstrap this project. That content will be moved to the website once it is running.
 
 ## Plotting
 Plots.jl, Makie.gl, Gaston.jl, PyPlot.jl
