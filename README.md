@@ -55,7 +55,7 @@ Enzyme.jl, Zygote.jl, ...
 MontecarloMeasurements.jl and Measurements-jl
 
 ## Nonlinear numerical solvers
-NonlinearSolve.jl, NLSolve.jl, Roots.jl, ...
+NonlinearSolve.jl, NLSolve.jl, Roots.jl, [SIAMFANLEquations.jl](https://github.com/ctkelley/SIAMFANLEquations.jl)
 
 ## Machine learning
 This section is concerned with general machine learning packages. A seperate section (link to section) exists for 
