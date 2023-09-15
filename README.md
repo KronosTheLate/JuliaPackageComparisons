@@ -99,11 +99,27 @@ DSP.jl, SignalsBase.jl, SampledSignals.jl, SignalAnalysis.jl
 
 See also FFTW.jl
 
-## Mahine Learning Datasets
+## Machine Learning Datasets
 OpenML.jl, MLDatasets.jl
 
-## Probabalistic Programming and Baysean Inference
+## Probabalistic Programming and Bayesian Inference
 Turing.jl, Gen.jl, SOSS.jl, KissABC.jl, RxInfer.jl
+
+
+- [MCMCChains.jl](https://github.com/TuringLang/MCMCChains.jl)
+
+### Sampler
+#### Hamiltonian Monte Carlo (gradient based)
+
+- [DynamicHMC.jl](https://github.com/tpapp/DynamicHMC.jl)
+- [AdvancedHMC.jl](https://github.com/TuringLang/AdvancedHMC.jl)
+- [BarkerMCMC.jl](https://github.com/scheidan/BarkerMCMC.jl)
+
+#### Adaptive MCMC (without gradient)
+
+- [AdaptiveMCMC.jl](https://github.com/mvihola/AdaptiveMCMC.jl)
+- [RobustAdaptiveMetropolisSampler.jl](https://github.com/anthofflab/RobustAdaptiveMetropolisSampler.jl)
+- [KissMCMC.jl](https://github.com/mauro3/KissMCMC.jl)
 
 ## Peak finding
 By "peak" we refer to a numerical value larger than any immediate neighbour. A simple example is a 
