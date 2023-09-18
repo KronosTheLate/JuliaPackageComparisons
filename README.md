@@ -46,8 +46,6 @@ format of the comparisons will be made. If however a format emerges that works w
 The goal is to create a github-hosted website, for which I plan to use [Franklin.jl](https://github.com/tlienart/Franklin.jl). Until then, I will write some content below to bootstrap this project. That content will be moved to the website once it is running.
 
 ## Plotting
-## Summary of Plotting Packages
-
 * [Plots.jl](https://docs.juliaplots.org/) is the most used. It's probably the most documented, used in the most tutorials, and is used in many videos. 
     * Pros: Its main draw is that it has a lot of plugins to other packages through its recipes system, which means that a lot of odd things like `plot(sol::ODESolution)` or showing the sparsity of a `BandedMatrix` just works. With all of these integrations, it's normally what I would recommend first to newcomers since they will generally get the most done with the least work. It has a backend system, so you can make it generate plots via GR (the default), Plotly (i.e. make webpages), pyplot, PGFPlots (Latex output), UnicodePlots (i.e. output plots as text). This ease of use and flexibility is what its main draw is.
      * Cons: Its downside has traditionally been its startup time, though it's nearly a second now so that's fine. Its main downside now is mostly that it's not as configurable as something like Makie, and it's not as optimized if you get up to millions of points. Its flexibility means it's not just for standard plots but also for animations, building small graphical user interfaces, and building small apps. 
@@ -81,7 +79,7 @@ The goal is to create a github-hosted website, for which I plan to use [Franklin
     * Pros: Instant startup, has some interesting data science integrations for things like named datasets, very complete set of plots
     * Cons: Not the most complete documentation, requires Linux with gnuplot.
 
-## tl;dr
+### tl;dr
 
 Plots.jl is the most used for a reason. It's very flexible, integrates with the most Julia packages so you'll find it all throughout other docs, and it has many of the advantages of the other libraries through its backend system. Thus if you needed Latex output, use the pgfplots backend. If you needed a webpage, use the Plotly backend. Unicodeplots backend when you want text output. Or the GR default for the basics. With Julia v1.9 its startup time is much improved (and it's like sub second on v1.10 beta), which was its major complaint before. If you're going to use one plotting library and don't care too much about every little detail, then Plots.jl is a good one to go with. It's definitely not the best in any of the cases, animations are better in Makie, Latex is better in PGFPlotsX, etc., but it's capable everywhere.
 
