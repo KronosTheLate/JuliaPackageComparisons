@@ -1,3 +1,23 @@
+# Attention - This project has moved to a new repository
+To get the appropriate URL for the website discussed here, a [new repository](https://github.com/JuliaPackageComparisons/JuliaPackageComparisons.github.io) has been created inside a [new origanization](https://github.com/JuliaPackageComparisons/). All issues, PRs and stars should be redirected there. This means that this repository is obsolete. It will be kept for some time, but likely be deleted in the future.
+
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
 # Julia Package Comparisons
 This Github repository contains the content of INSERT LINK, a website that compares Julia Packages. The comparisons should be as simple to read and understand as possible.
 The content should be the result of the combined perspectives of package developers and users to ensure the most fair and objective comparisons of packages.
